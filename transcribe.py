@@ -31,7 +31,7 @@ image=""
 
 if uploaded_file is not None:
     image= Image.open(uploaded_file)
-    st.image(image, caption="uploaded Image.", use_column_width=True)
+    st.image(image, caption="uploaded Image.", use_container_width=True)
 
 submit = st.button("Let's Go")
 
